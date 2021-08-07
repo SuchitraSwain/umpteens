@@ -187,7 +187,7 @@ const Signin = ({ handleSignIn }) => {
                         </p>
                       </form>
 
-                      <div className="socilist">
+                      {/* <div className="socilist">
                         <h4>Or</h4>
                         <ul>
                           <li>
@@ -218,7 +218,7 @@ const Signin = ({ handleSignIn }) => {
                             </a>
                           </li>
                         </ul>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>

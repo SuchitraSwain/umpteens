@@ -101,11 +101,11 @@ const Footer = () => {
             </Link>
           </div>
           <div className="col-md-2 col-6 mt-5">
-            <p className="text-light">COMPANY PROFILE</p>
+            <p className="text-light">ABOUT US</p>
             <ul>
-              <li>
+              {/* <li>
                 <Link className="footer_link">About us</Link>
-              </li>
+              </li> */}
               <li>
                 <Link className="footer_link">Mission</Link>
               </li>
@@ -154,7 +154,7 @@ const Footer = () => {
                 />
                 <small>+91-94xxxxxxxx</small>
               </li>
-              <li className="mt-5 footer__social__icon">
+              {/* <li className="mt-5 footer__social__icon">
                 <Link>
                   <img src="images/facebook.png" alt="" className="img-fluid" />
                 </Link>
@@ -164,7 +164,7 @@ const Footer = () => {
                 <Link>
                   <img src="images/github.png" alt="" className="img-fluid" />
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

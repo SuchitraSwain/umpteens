@@ -40,7 +40,7 @@ const Map = () => {
                 Follow easy steps to knock the door of the Recruitment Company
               </p>
             </div>
-            <div className="col-12 mt-5 pt-5 icon__section">
+            <div className="col-12 icon__section">
               <div className="row">
                 <div className="col-md-3 col-6">
                   <img

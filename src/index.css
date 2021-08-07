@@ -226,7 +226,7 @@ html {
 }
 .signupform {
   background: #fff;
-  padding: 40px 15px;
+  padding: 55px 15px;
 }
 .signupform h3 {
   /* font-size: 36px; */
@@ -2269,4 +2269,39 @@ input:focus {
   .mission__vision__section .mission__vision .vision {
     margin-left: 0px !important;
   }
+}
+.contact_modal h2 {
+  font-weight: bold !important;
+}
+
+.contact_modal .modal-body {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.contact_modal .modal-body form .form-control {
+  height: 60px;
+  border-radius: 8px;
+  border: solid 1px #898989;
+  width: 100%;
+}
+
+.contact_modal .modal-body form label {
+  font-weight: bold;
+}
+
+.contact_modal .modal-body form button {
+  display: inline-block;
+  width: 100%;
+  background: #05a401;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: 400;
+  border: solid 1px #05a401;
+  text-decoration: none;
+  text-transform: uppercase;
+  height: 60px;
+  font-weight: bold;
 }

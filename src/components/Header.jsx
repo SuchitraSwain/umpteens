@@ -89,16 +89,89 @@ const Header = ({ handleSignIn, signIn }) => {
 
                 {/* <li className="btnlist"> <Link className="nav-link" to = "/contact" >Contact us</Link> </li> */}
                 <li>
-                  <Link>
-                    <button className="btn contact__btn__navbar">
-                      Contact us
-                    </button>
-                  </Link>
+                  {/* <Link> */}
+                  <button
+                    type="button"
+                    class="btn contact__btn__navbar"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    Contact Us
+                  </button>
+                  {/* </Link> */}
                 </li>
               </ul>
             </div>
           </div>
         </nav>
+      </div>
+      <div
+        class="modal fade contact_modal"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog  modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header b-0" style={{ border: "none" }}>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body pb-5">
+              <div className="container">
+                <div className="row">
+                  <h2>Get In Touch</h2>
+                  <p className="mt-3">Feel free to drop us a line below</p>
+                </div>
+                <div className="row mt-5">
+                  <form>
+                    <div className="col-12">
+                      <label for="fullName" className="font-weight-bold">
+                        Full Name
+                      </label>
+                      <input
+                        name="fullname"
+                        type="text"
+                        className="form-control"
+                        placeholder="Enter your name"
+                      />
+                    </div>
+                    <div className="col-12 mt-4">
+                      <label for="fullName" className="font-weight-bold">
+                        Email
+                      </label>
+                      <input
+                        name="email"
+                        type="text"
+                        className="form-control"
+                        placeholder="Enter your email address"
+                      />
+                    </div>
+                    <div className="col-12 mt-4">
+                      <label for="fullName" className="font-weight-bold">
+                        Message
+                      </label>
+                      <input
+                        name="message"
+                        type="text"
+                        className="form-control"
+                        placeholder="Enter your query"
+                      />
+                    </div>
+                    <div className="col-12 d-block ml-auto mr-auto mt-5">
+                      <button>Submit</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
   );

@@ -200,11 +200,11 @@ const ScoutSignIn = ({ a }) => {
                         </button>
                         <p className="text-center">
                           Don’t not have account yet?
-                          <Link to="/signup">Sign up</Link>
+                          <Link to="/company">Sign up</Link>
                         </p>
                       </form>
 
-                      <div className="socilist">
+                      {/* <div className="socilist">
                         <h4>Or</h4>
                         <ul>
                           <li>
@@ -235,7 +235,7 @@ const ScoutSignIn = ({ a }) => {
                             </a>
                           </li>
                         </ul>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>

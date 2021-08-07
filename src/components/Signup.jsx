@@ -147,7 +147,7 @@ const Signup = () => {
                       />
                     </div>
                   </div>
-                  <div className="profile_input mt-3">
+                  {/* <div className="profile_input mt-3">
                     <div className="col6">
                       <label for="password" className="font-weight-bold">
                         Add Profile Picture
@@ -161,7 +161,7 @@ const Signup = () => {
                         className="form-control"
                       />
                     </div>
-                  </div>
+                  </div> */}
                   <div className="profile_input mt-3">
                     <div className="col12">
                       <label for="password" className="font-weight-bold">
